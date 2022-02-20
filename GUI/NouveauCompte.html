@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nouveau Compte</title>
+        <link rel="stylesheet" href="CSS/infos.css">
+        <link rel="icon" href="IMG/icon.jpg">
+    </head>
+    <body>
+        <table id="infos" align="center">
+            <tr>
+                <th colspan="2">
+                    <h1>Formulaire Nouveau Compte</h1>
+                </th>
+            </tr>
+            <!--Formulaire-->
+            <form action="../metier/NouveauCompte.php" method="POST">
+                <tr>
+                    <td>Entrez le numéro d'identification national : </td>
+                    <td>
+                        <input type="text" placeholder="CIN" name="cin" id="cin">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Entrer le numéro de compte : </td>
+                    <td>
+                        <input type="text" placeholder="Numéro de compte" name="num" id="num">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter le montant : </td>
+                    <td>
+                        <input type="text" placeholder="Montant" name="montant" id="montant"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" name="input" id="sub">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
